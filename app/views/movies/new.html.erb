@@ -4,6 +4,10 @@
   <p style="color: red;"><%= message %></p>
 <% end %>
 
+<%= form_with(url: movies_path, data: { turbo: false }) do %>
+
+<% end %>
+
 <div>
   <%= link_to "Go back", @the_movie %>
 </div>
